@@ -1,0 +1,12 @@
+[package]
+name = "deno-plugin"
+version = "0.1.0"
+authors = ["srdjans <github.com/srdjan>"]
+edition = "2018"
+publish = false
+
+[lib] 
+crate-type = ["dylib"]
+
+[dependencies]
+deno_core = "0.49.0"
